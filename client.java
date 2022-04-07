@@ -52,9 +52,9 @@ public class client {
 
         String decryptedHtml = ownDecrypt(textToDecrypt, secCKey).toString();
 
-        System.out.println((int) textToDecrypt.charAt(59));
-        int test = 94 * ((28/94) + 1);
-        System.out.println(28 + test);
+        //System.out.println((int) textToDecrypt.charAt(59));
+        //int test = 94 * ((28/94) + 1);
+        //System.out.println(28 + test);
 
         new client(decryptedHtml);
 
